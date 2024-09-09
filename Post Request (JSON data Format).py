@@ -11,7 +11,6 @@ json_data = {
 # Making the POST request
 response = requests.post(url, json=json_data)
 
-# Checking the response status
 if response.status_code == 200:
     print("POST request successful!")
 else:
